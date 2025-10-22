@@ -97,9 +97,10 @@
 
   body {
     @apply bg-background text-foreground;
-    background-image: url("https://cdn.poehali.dev/projects/15561570-50d9-4371-8ec9-fde047ebbf40/files/5aa7c836-2232-4adf-b11b-005b7ac3cb5d.jpg");
+    background-image: url("https://cdn.poehali.dev/projects/15561570-50d9-4371-8ec9-fde047ebbf40/files/377196a5-81fd-47ab-9077-eab7c596f3b3.jpg");
     background-repeat: repeat;
-    background-size: 400px 400px;
+    background-size: 300px 300px;
+    background-attachment: fixed;
   }
 }
 
