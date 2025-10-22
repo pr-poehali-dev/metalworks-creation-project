@@ -258,6 +258,20 @@ export default function Index() {
         </div>
       </section>
 
+      <a
+        href="https://wa.me/79991234567"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-2xl transition-all duration-300 hover:scale-110 group"
+        aria-label="Написать в WhatsApp"
+      >
+        <Icon name="MessageCircle" size={32} className="group-hover:animate-pulse" />
+        <span className="absolute -top-1 -right-1 flex h-3 w-3">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+          <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+        </span>
+      </a>
+
       <footer className="bg-secondary/95 text-white py-12 px-4 border-t border-primary/20">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
