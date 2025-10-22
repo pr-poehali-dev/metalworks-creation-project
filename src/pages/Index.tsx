@@ -125,6 +125,47 @@ export default function Index() {
         </div>
       </section>
 
+      <section className="py-20 px-4 bg-gradient-to-b from-primary/5 to-white">
+        <div className="container mx-auto">
+          <div className="text-center mb-16">
+            <h3 className="text-4xl md:text-5xl font-bold text-secondary mb-4">Почему выбирают нас</h3>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Более 14 лет опыта в металлообработке и сотни довольных клиентов
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center group">
+              <div className="mb-4 inline-flex items-center justify-center w-20 h-20 bg-primary/10 rounded-full group-hover:bg-primary transition-colors duration-300">
+                <Icon name="Award" className="text-primary group-hover:text-white transition-colors" size={40} />
+              </div>
+              <h4 className="text-3xl font-bold text-secondary mb-2">14+</h4>
+              <p className="text-gray-600 font-medium">лет опыта</p>
+            </div>
+            <div className="text-center group">
+              <div className="mb-4 inline-flex items-center justify-center w-20 h-20 bg-primary/10 rounded-full group-hover:bg-primary transition-colors duration-300">
+                <Icon name="Users" className="text-primary group-hover:text-white transition-colors" size={40} />
+              </div>
+              <h4 className="text-3xl font-bold text-secondary mb-2">500+</h4>
+              <p className="text-gray-600 font-medium">выполненных проектов</p>
+            </div>
+            <div className="text-center group">
+              <div className="mb-4 inline-flex items-center justify-center w-20 h-20 bg-primary/10 rounded-full group-hover:bg-primary transition-colors duration-300">
+                <Icon name="Shield" className="text-primary group-hover:text-white transition-colors" size={40} />
+              </div>
+              <h4 className="text-3xl font-bold text-secondary mb-2">3 года</h4>
+              <p className="text-gray-600 font-medium">гарантия на работы</p>
+            </div>
+            <div className="text-center group">
+              <div className="mb-4 inline-flex items-center justify-center w-20 h-20 bg-primary/10 rounded-full group-hover:bg-primary transition-colors duration-300">
+                <Icon name="Clock" className="text-primary group-hover:text-white transition-colors" size={40} />
+              </div>
+              <h4 className="text-3xl font-bold text-secondary mb-2">24/7</h4>
+              <p className="text-gray-600 font-medium">консультации</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-16">
