@@ -174,7 +174,72 @@ export default function Index() {
               Примеры выполненных проектов — от художественной ковки до сложных конструкций
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+              <img 
+                src="https://cdn.poehali.dev/files/65b89b7e-2fdf-47ae-b0ad-03875b8da722.jpg"
+                alt="Кованые ворота с художественным декором"
+                className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <div>
+                  <h4 className="text-white text-xl font-bold mb-2">Кованые ворота</h4>
+                  <p className="text-gray-200">Художественная ковка с узорами</p>
+                </div>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+              <img 
+                src="https://cdn.poehali.dev/files/ef9ed022-0241-4c29-8be6-20b6233e88f6.jpg"
+                alt="Металлический каркас здания"
+                className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <div>
+                  <h4 className="text-white text-xl font-bold mb-2">Металлокаркас здания</h4>
+                  <p className="text-gray-200">Строительство под ключ</p>
+                </div>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+              <img 
+                src="https://cdn.poehali.dev/files/212e0d06-b7be-448b-a5da-0f82f33cdb7a.jpg"
+                alt="Металлический навес"
+                className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <div>
+                  <h4 className="text-white text-xl font-bold mb-2">Навесы и сооружения</h4>
+                  <p className="text-gray-200">Арочные конструкции</p>
+                </div>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+              <img 
+                src="https://cdn.poehali.dev/files/dd3dbfe6-c9fc-416e-8cd3-527dfa37a544.jpg"
+                alt="Выставочный павильон"
+                className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <div>
+                  <h4 className="text-white text-xl font-bold mb-2">Торговые павильоны</h4>
+                  <p className="text-gray-200">Выставочные стенды</p>
+                </div>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+              <img 
+                src="https://cdn.poehali.dev/files/c1308a34-bf56-4732-8527-111fa3a5b509.jpg"
+                alt="Модульное кафе из металла"
+                className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <div>
+                  <h4 className="text-white text-xl font-bold mb-2">Модульные конструкции</h4>
+                  <p className="text-gray-200">Кафе, киоски, павильоны</p>
+                </div>
+              </div>
+            </div>
             <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
               <img 
                 src="https://cdn.poehali.dev/projects/15561570-50d9-4371-8ec9-fde047ebbf40/files/9d0d7dc7-3fe6-403d-bbe1-035808f79a8a.jpg"
@@ -185,32 +250,6 @@ export default function Index() {
                 <div>
                   <h4 className="text-white text-xl font-bold mb-2">Металлические лестницы</h4>
                   <p className="text-gray-200">Изготовление и монтаж</p>
-                </div>
-              </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
-              <img 
-                src="https://cdn.poehali.dev/projects/15561570-50d9-4371-8ec9-fde047ebbf40/files/5a479758-59ab-48be-9f86-4673b973a3b8.jpg"
-                alt="Кованые ворота"
-                className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                <div>
-                  <h4 className="text-white text-xl font-bold mb-2">Художественная ковка</h4>
-                  <p className="text-gray-200">Ворота с декором</p>
-                </div>
-              </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
-              <img 
-                src="https://cdn.poehali.dev/projects/15561570-50d9-4371-8ec9-fde047ebbf40/files/638d4b18-74c5-44aa-8620-ccd427213019.jpg"
-                alt="Торговые палатки"
-                className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                <div>
-                  <h4 className="text-white text-xl font-bold mb-2">Торговые палатки</h4>
-                  <p className="text-gray-200">Каркасы из металла</p>
                 </div>
               </div>
             </div>
